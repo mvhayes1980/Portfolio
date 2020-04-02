@@ -1,0 +1,58 @@
+.myContainer {
+    margin: 15px;
+    z-index: 0;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+  /* Add some content at the bottom of the video/page */
+.content1 {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    font-size: 12px;
+    font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    width: 100%;
+    padding: 20px;
+    z-index: 1;
+  }
+
+  /* Style the button used to pause/play the video */
+#myBtn {
+    width: 400px;
+    font-size: 25px;
+    padding: 1px;
+    border: 5px solid rgb(155, 199, 255);
+    border-radius: 25px 25px 25px 25px;
+    background: rgba(7, 7, 3, 0.801);
+    color: rgb(199, 140, 117);
+    font-size: x-large;
+    font-weight: 500;
+    font-style: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-stretch: ultra-expanded;
+    font-variant: small-caps;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    margin-left: 52px;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
+
+  video {
+    max-width: 100%;
+    height: auto;
+  }
