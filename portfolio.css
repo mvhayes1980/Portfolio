@@ -57,3 +57,6 @@
     height: auto;
   }
   
+  #port {
+    border: 2px solid black;
+  }
